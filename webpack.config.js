@@ -4,7 +4,7 @@ module.exports = {
     entry: './app/js/app.js',
 
     output: {
-        path: '.',
+        path: 'docs',
         filename: 'client.bundle.js'
     },
 
