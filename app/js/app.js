@@ -26,10 +26,8 @@ const Application = React.createClass({
                 <Carousel
                     controls={false}
                     style={{
-                    width: 900,
-                    height: 500,
-                    marginLeft: 'auto',
-                    marginRight: 'auto',
+                        height:'100%',
+                        width:'100%',
                     marginTop: 40
                 }}
                           activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect}>
