@@ -62,6 +62,7 @@ const Application = React.createClass({
                                 bsSize="large"
                                 onClick={e=>this.setState({index:2}) }
                             >Let'd do this.</Button>
+                            <p>&nbsp;</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -75,6 +76,7 @@ const Application = React.createClass({
                                 bsSize="large"
                                 onClick={e=>this.setState({index:3}) }
                             >Check in and next</Button>
+                            <p>&nbsp;</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -90,6 +92,7 @@ const Application = React.createClass({
                                 bsSize="large"
                                 onClick={e=>this.setState({index:0}) }
                             >I'm done, start again.</Button>
+                            <p>&nbsp;</p>
                         </Carousel.Caption>
                     </Carousel.Item>
 
