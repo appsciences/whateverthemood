@@ -25,14 +25,10 @@ const Application = React.createClass({
         return (
                 <Carousel
                     controls={false}
-                    style={{
-                        height:'100%',
-                        width:'100%',
-                    marginTop: 40
-                }}
+
                           activeIndex={this.state.index} direction={this.state.direction} onSelect={this.handleSelect}>
                     <Carousel.Item>
-                        <img width={900} height={500} alt="900x500" src="../images/nature2.jpg"/>
+                        <img alt="900x500" src="../images/nature2.jpg"/>
 
                         <Carousel.Caption>
                             <h1>What is your mood?</h1>
@@ -49,7 +45,7 @@ const Application = React.createClass({
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img width={900} height={500} alt="900x500" src="../images/nature1.jpg"/>
+                        <img alt="900x500" src="../images/nature1.jpg"/>
 
                         <Carousel.Caption>
                             <h1>Some questions to set the tone</h1>
@@ -64,7 +60,7 @@ const Application = React.createClass({
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img width={900} height={500} alt="900x500" src="../images/nature3.jpg"/>
+                        <img alt="900x500" src="../images/nature3.jpg"/>
 
                         <Carousel.Caption>
                             <h1>Rob a deli and burn it down.</h1>
@@ -78,12 +74,13 @@ const Application = React.createClass({
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img width={900} height={500} alt="900x500" src="../images/nature4.jpg"/>
+                        <img alt="900x500" src="../images/nature4.jpg"/>
 
                         <Carousel.Caption>
                             <h1>Jump kid for lunch money.</h1>
                             <p>At the nearest playground pick the smallest kid, take lunch money. Ask parents for code and enter below.</p>
-                            <p><FormControl style={{height:60, width:500, fontSize:35}} placeholder="Code" type="text"/>
+                            <p>
+                                <FormControl style={{display:'inline', height:60, width:500, fontSize:35}} placeholder="Code" type="text"/>
                             </p>
                             <Button
                                 style={{color:'white', background:'none'}}
