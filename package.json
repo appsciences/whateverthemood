@@ -1,10 +1,11 @@
 {
-  "name": "casualfax",
+  "name": "whateverthemood",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server/index.js",
+    "develop-mobile": "webpack-dev-server --inline --hot --host 192.168.1.15",
     "develop": "webpack-dev-server --inline --hot",
     "build-dev": "webpack -d --progress",
     "build-prod": "webpack -p",
@@ -16,9 +17,11 @@
   "license": "",
   "dependencies": {
     "bootstrap": "^3.3.6",
+    "lodash": "^4.16.0",
     "react": "^15.2.1",
     "react-bootstrap": "^0.29.5",
-    "react-dom": "^15.2.1"
+    "react-dom": "^15.2.1",
+    "react-screen-orientation": "0.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",

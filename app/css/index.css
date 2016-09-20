@@ -1,13 +1,33 @@
-@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap/dist/css/bootstrap.css";
 
 body {
     font-size: 24px;
+    height: 100%;
 }
 
-div.screen1 {
-    background-image: url("../images/nature1.jpg");
-    width: 900px;
-    height: 500px;
-
+html,
+.carousel,
+.item,
+.carousel-inner,
+.full-height,
+.active {
+    height: 100%;
 }
 
+.fullscreen {
+    overflow: auto;
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(248,248,248);
+    /*background: url("../images/mosaic-bar.jpg");*/
+}
+
+.round-button {
+    margin-right: 25px;
+    margin-bottom: 25px;
+    font-size: 200%;
+    border-radius: 35px;
+    border-width: 5px;
+    padding: 18px;
+    background-color: white;
+}
