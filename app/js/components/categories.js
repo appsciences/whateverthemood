@@ -77,6 +77,7 @@ const Categories = React.createClass({
                 <DestinationSection
                     category={category}
                     title={shopName}
+                    key={i}
                 />);
 
         const categories =

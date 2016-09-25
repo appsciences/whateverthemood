@@ -11,7 +11,7 @@ const ToolBar = React.createClass({
             <div id="toolbar" className="primary-color">
                 <div className="title">Whatever the Mood</div>
                 <div className="open-right" id="open-right" data-activates="slide-out">
-                    <i className="ion-android-menu"></i>
+                    {/*<i className="ion-android-menu"></i>*/}
                 </div>
             </div>        );
 
