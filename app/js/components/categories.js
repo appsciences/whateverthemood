@@ -8,7 +8,7 @@ const Categories = React.createClass({
         const adventure={
             'Featured Tone Setter': {
                 'Lillian':'Challenge',
-                'Kelsey':'She]s an angel, just say hi'
+                'Kelsey':"She's an angel, just say hi"
             },
             'Adventure': {
                 'A Saxophone Player':'Stay a while, he\'s worthe every second. Shoot a video or picture, don\'t forget to tip',
@@ -16,83 +16,89 @@ const Categories = React.createClass({
             },
         };
 
+        //TODO Andrew and Frienks
         // const shops= {
-        //     'Bar': {
-        //         'Sparrow':'Welcome to Sparrow. It\'s to to wake up. Have a free drink. Take a picture of one of the light fixtures, instagram @sparrow and @whateverthemood',
-        //         'The Bonnie':'Welcome to the Bonnie. You have important task at hand. Find Lillian and capture her tattoo. Take a picture in the back yard, the Bonnie will reward you. @bonnie',
-        //         'Flattopps':'Give a dollar to the bartender, bartender picks a song, shoot a music video while sipping on a free slushy'
-        //     },
-        //     'Co-working':{'Wework':'Go to lunch, talk to Ed'},
-        //     'Florist':{'Ditmars Flowers & Gifts':'Welcome to Ditmars Florist. Creatively pose amongst the flowers with your team.'},
-        //     'Lounge':{'Mosaic':'Now that you\ve seen the inside it\'s time to see the outside. There is a prive party gong on, so for now just scope it out. Creatively Instagram whatever Mosaic\'s mood may be.' },
-        //     "Kitchen & Coffee" : {
-        //         "Cafe 23":"Come get some free ice tea. Instagram this lovely cafe and let them know whatever the modd sent them their way.",
-        //         "60 Beans":"Welcome to 60 Beans. Try a free coffee. Find out the origin of the name. Instagram the business whatever way the mood strikes you. Get code form Joel."
-        //     },
-        //     "Food" :{
-        //         "Delicious Deli":"Stop by delicius deli, get free fruit. Try discounted juice.",
-        //     },
-        //     "Bagels": {"The Bagel House":"Top by, say hi, they are absolutely our mood."},
-        //     "Butique": {
-        //         "Brass Owl":"Challenge",
-        //     },
-        //     "Health": {
-        //         "Oak Point Wellness Center":""
-        //     } ,
         //
-        //     "Fitness": {
-        //         "Versa Fit":"Challenge"
-        //     },
-        //     "Mensware":{"Stonework":"Speak to Ed at lunch"},
-        //     "Shoe Shine":{"Zhicay Shoe Repair":"Speak to Ed at lunch"},
-        //     "Tattoo":{"Supernova":"Challenge"},
-        //     "Hobby":{"Luludi":"Challenge"},
-        //     "Gift Shop" : {
-        //         "Inside Astoria":"Challenge"
-        //     },
-        //     "Specialty" : {
-        //         "The Little Soap Shop" : "Challenge"
-        //     }
         // };
 
-        const shops = {
-            'Musician':{
-                'Tyler Clayton':"Stay a while, he's worth every second. Shoot a video or picture, don't forget to tip"
+        const dest = {
+            'explore':{
+                'Food':{
+                    'Delicious Deli':"",
+                    'test':""
+                },
+                'Drink':{
+                    'Mosaic':"",
+                    'The Bonnie':"",
+                    '60 Bean':"",
+                    'Cafe 23':"",
+                    'Flattopps':'',
+                    'Sparrow Tavern':''
+                },
+                'Shop':{
+                    'Ditmas Flowers and Gifts':"",
+                    'The Brass Owl':"",
+                    'The Little Soap Shop':"",
+                    'Zhicay Shoe Repair':"",
+                    'The Stonework':"",
+                    'Inside Astoria':""
+                },
+                'Hobby':{
+                    'Luludi':""
+                },
+                'Co-work':{
+                    'Tyler Clayton':"Stay a while, he's worth every second. Shoot a video or picture, don't forget to tip"
+                },
+                'Wellness':{
+                    'Oak Point Health and Vitality Centre':""
+                },
+                'Bar':{
+                    'Tyler Clayton':"Stay a while, he's worth every second. Shoot a video or picture, don't forget to tip"
+                }},
+            'adventure':{
+                'Tone Setters':{
+                    'Lillian':'',
+                    'Kelsey':""
+                },
+                'Music':{
+                    'Tyler Clayton':"",
+                    'Kaylyn Marie':""
+                }
             }
-        };
+        }[this.props.params.type];
 
-        const categoryNav = Object.keys(shops).map((category, i) =>
-            <li className="tab col s3"><a className="active" href={'#'+category}>Tech
+        const categoryNav = Object.keys(dest).map((category, i) =>
+            <li className="tab col s3"><a className="active" href={'#'+category}>
                 {category}
             </a></li>);
 
         const categoryList = category =>
-            Object.keys(shops[category]).map((shopName, i) =>
+            Object.keys(dest[category]).map((shopName, i) =>
                 <DestinationSection
                     category={category}
                     title={shopName}
                 />);
 
         const categories =
-            Object.keys(shops).map((category) =>
+            Object.keys(dest).map((category) =>
                 <div id={category}>
                     {categoryList(category)}
                 </div>);
 
-    return (
+        return (
 
-        <div className="page animated fadeinright">
+            <div className="page animated fadeinright">
 
-            <ul className="tabs">
-                {categoryNav}
-            </ul>
+                <ul className="tabs">
+                    {categoryNav}
+                </ul>
 
-            {categories}
+                {categories}
 
-            <div className="clr"></div>
+                <div className="clr"></div>
 
-        </div>
-    );
+            </div>
+        );
     }
 });
 

@@ -8,7 +8,8 @@ import Footer from './components/shared/footer';
 import FrontPage from './components/front-page';
 import Categories from './components/categories';
 import Destination from './components/dest';
-import { Router, Route, Link } from 'react-router';
+import Congrats from './components/congrats';
+import { Router, Route, hashHistory } from 'react-router';
 
 
 const App = React.createClass({
@@ -32,9 +33,10 @@ const App = React.createClass({
 });
 
 ReactDOM.render(
-    <Router>
+    <Router history={hashHistory}>
         <Route path="/" component={App}>
-            <Route path="categories" component={Categories} />
+            <Route path="categories/:type" component={Categories} />
             <Route path="dest/:id" component={Destination} />
+            <Route path="congrats" component={Congrats} />
         </Route>
     </Router>, document.getElementById("app-container"));
