@@ -20,27 +20,28 @@ const FrontPage = React.createClass({
                                 {/*<span className="white-text">Lora Bell</span>*/}
                         </div>
                         <div className="animated fadeinup delay-2">
-                            {/*<h3 className="title white-text">What's the mood?</h3>*/}
-                            <h3 className="title white-text">The world will not be the same.</h3>
-                            <p className="white-text m-0"><a href="https://www.facebook.com/events/576581589196477/">Sept 25th, 11 am. Ditmas Blvd and 19th St, Atoria</a></p>
-                            <br/>
-                            <p className="white-text m-0"><a href="https://www.facebook.com/events/576581589196477/">Click for more info</a></p>
+                            <h3 className="title white-text">What's the mood?</h3>
+                            <p className="white-text m-0"><a href="https://www.facebook.com/events/576581589196477/">Click here for event information</a></p>
+                            {/*<h3 className="title white-text">The world will not be the same.</h3>*/}
+                            {/*<p className="white-text m-0"><a href="https://www.facebook.com/events/576581589196477/">Sept 25th, 11 am. Ditmas Blvd and 19th St, Atoria</a></p>*/}
                             {/*<br/>*/}
-                            {/*<p className="white-text m-0">*/}
-                                {/*<Link*/}
-                                    {/*to={`/categories/adventure`}*/}
-                                    {/*className="btn-large"*/}
-                                    {/*style={{background:"rgba(255, 255, 255, 0.3)"}}*/}
-                                {/*>*/}
-                                    {/*Adventure*/}
-                                {/*</Link>*/}
-                                {/*&nbsp;&nbsp;&nbsp;&nbsp;*/}
-                                {/*<Link*/}
-                                    {/*to={`/categories/explore`}*/}
-                                    {/*className="btn-large"*/}
-                                    {/*style={{background:"rgba(255, 255, 255, 0.3)"}}*/}
-                                {/*>Not sure</Link>*/}
-                            {/*</p>*/}
+                            {/*<p className="white-text m-0"><a href="https://www.facebook.com/events/576581589196477/">Click for more info</a></p>*/}
+                            <br/>
+                            <p className="white-text m-0">
+                                <Link
+                                    to={`/categories/adventure`}
+                                    className="btn-large"
+                                    style={{background:"rgba(255, 255, 255, 0.3)"}}
+                                >
+                                    Adventure
+                                </Link>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                <Link
+                                    to={`/categories/explore`}
+                                    className="btn-large"
+                                    style={{background:"rgba(255, 255, 255, 0.3)"}}
+                                >Not sure</Link>
+                            </p>
                         </div>
                     </div>
                 </div>

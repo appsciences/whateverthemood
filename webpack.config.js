@@ -27,7 +27,7 @@ module.exports = {
             },
             {
                 test: /jetpack/,
-                loader: 'file'
+                loader: 'script'
             },
             {
                 test: /\.json$/,
