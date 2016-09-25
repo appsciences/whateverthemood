@@ -18,7 +18,7 @@ const Destination = React.createClass({
                     description:"e are thrilled to be working with the bright minds at Wework. For visionaries, startups, artists, and entrepreneurs alike; this global and future minded company facilitates and stimulates the passionate creatives of the world. Do what you love and create it here. Wework.",
                     letter:'W',
                     challenge:"Go to lunch, talk to Ed.",
-                    address: '35-37 36th St, Astoria',
+                    address: '35-37 36th St',
                     mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
                 },
                 'Kaylyn-Marie':{
@@ -32,7 +32,7 @@ const Destination = React.createClass({
                     description:"ur current mood. All day music festival at The Bonnie, one of our favorites and definite tone setters. Notice the artist drawing the singer in the lower corner.",
                     letter:'O',
                     challenge:"Welcome to the Bonnie. You have important task at hand. Find Lillian and capture her tattoo. Take a picture in the back yard, the Bonnie will reward you.",
-                    address: '35-37 36th St, Astoria',
+                    address: '29-12 23rd Ave',
                     mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
                 },
                 '60-Beans':{
@@ -40,7 +40,7 @@ const Destination = React.createClass({
                     description:"e are honored to be sponsored by and working with a very unique and wonderful vetted tone setter, Mosaic. Whatever your mood may be, Mosaic has never failed to deliver an exceptional and personalized experience. They offer over 140 beers, a fine selection of wines, beautiful cocktails, and service that makes you feel as if you're in an extension of your own home. Come by, drink a cocktail, play some games. Whatever your mood may be, this is a terrific place to be.",
                     letter:'W',
                     challenge:"Welcome to 60 Beans. Try a free coffee. Find out the origin of the name. Instagram the business whatever way the mood strikes you. Get code from Joel.",
-                    address: '35-37 36th St, Astoria',
+                    address: '36-02 Ditmars Blvd',
                     mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
                 },
                 'Mosaic-Craft-Cocktail-and-Beer-Lounge':{
@@ -212,10 +212,10 @@ const Destination = React.createClass({
                         <h3>Objective</h3>
                         <p className="text-flow"> {destInfo.challenge} </p>
 
-                        {destInfo.address && <div><h3>Objective</h3>
+                        {destInfo.address && <div><h3>Address</h3>
                         <p className="text-flow"> {destInfo.address} </p></div>}
 
-                        {destInfo.mapsLink && <div><h3>Objective</h3>
+                        {destInfo.mapsLink && <div>
                         <p className="text-flow"> <a href={destInfo.mapsLink}>Map</a> </p></div>}
 
                         <p className="text-flow"> <Link
