@@ -22,7 +22,7 @@ module.exports = {
                 loaders: ['style', 'css', 'sass']
             },
             {
-                test: /\.(ico|jpg|png|ttf|eot|svg|woff(2)?)(\?v=.+)?$/,
+                test: /\.(ico|jpg|png|ttf|eot|svg|gif|woff(2)?)(\?v=.+)?$/,
                 loader: 'file'
             },
             {

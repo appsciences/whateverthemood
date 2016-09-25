@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server/index.js",
-    "develop-mobile": "webpack-dev-server --inline --hot --host 192.168.1.15",
+    "develop-mobile": "webpack-dev-server --inline --hot --host 192.168.1.8",
     "develop": "webpack-dev-server --inline --hot",
     "build-dev": "webpack -d --progress",
     "build-prod": "webpack -p",
@@ -21,6 +21,7 @@
     "react": "^15.2.1",
     "react-bootstrap": "^0.29.5",
     "react-dom": "^15.2.1",
+    "react-router": "^2.8.1",
     "react-screen-orientation": "0.0.2"
   },
   "devDependencies": {
