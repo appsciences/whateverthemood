@@ -1,8 +1,34 @@
 import React from 'react';
 import DestinationSection from './dest-section';
 
+
 const Categories = React.createClass({
 
+    componentDidMount()  {
+
+        require("../jetpack/jquery-2.1.0.min.js");
+        require("../jetpack/jquery.swipebox.min.js");
+        require("../jetpack/jquery.smoothState.min.js");
+        require("../jetpack/materialize.js");
+        require("../jetpack/swiper.min.js");
+        require("../jetpack/jquery.mixitup.min.js");
+        require("../jetpack/masonry.min.js");
+        require("../jetpack/chart.min.js");
+        require("../jetpack/functions.js");
+
+    },
+
+    componentDidUpdate(){
+        require("../jetpack/jquery-2.1.0.min.js");
+        require("../jetpack/jquery.swipebox.min.js");
+        require("../jetpack/jquery.smoothState.min.js");
+        require("../jetpack/materialize.js");
+        require("../jetpack/swiper.min.js");
+        require("../jetpack/jquery.mixitup.min.js");
+        require("../jetpack/masonry.min.js");
+        require("../jetpack/chart.min.js");
+        require("../jetpack/functions.js");
+    },
     render() {
 
         const adventure={
@@ -78,8 +104,8 @@ const Categories = React.createClass({
                 />);
 
         const categories =
-            Object.keys(dest).map((category) =>
-                <div id={category}>
+            Object.keys(dest).map((category, i) =>
+                <div id={category} key={i}>
                     {categoryList(category)}
                 </div>);
 
