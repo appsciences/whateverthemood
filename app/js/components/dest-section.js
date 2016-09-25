@@ -11,7 +11,7 @@ const Destination = React.createClass({
 
         let destId = this.props.title.replace(/ /g, "-");
 
-        let img1 = require(`../../img/dest/${this.props.title.replace(/ /g, "-")}-small.jpg`);
+        let img1 = require(`../../img/dest/${this.props.title.replace(/ /g, "-")}.jpg`);
 
         return (
 

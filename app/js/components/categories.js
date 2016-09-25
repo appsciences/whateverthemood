@@ -25,12 +25,12 @@ const Categories = React.createClass({
             'explore': {
                 'Food': {
                     'Delicious Deli': "",
+                    '60 Beans': "",
+                    'Cafe 23': "",
                 },
                 'Drink': {
                     'Mosaic-Craft-Cocktail-and-Beer-Lounge': "",
                     'The Bonnie': "",
-                    '60 Beans': "",
-                    'Cafe 23': "",
                     'Flattopps': '',
                     'Sparrow Tavern': ''
                 },
