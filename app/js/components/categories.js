@@ -22,39 +22,36 @@ const Categories = React.createClass({
         // };
 
         const dest = {
-            'explore':{
-                'Food':{
-                    'Delicious Deli':"",
-                    'test':""
+            'explore': {
+                'Food': {
+                    'Delicious Deli': "",
                 },
-                'Drink':{
-                    'Mosaic':"",
-                    'The Bonnie':"",
-                    '60 Bean':"",
-                    'Cafe 23':"",
-                    'Flattopps':'',
-                    'Sparrow Tavern':''
+                'Drink': {
+                    'Mosaic-Craft-Cocktail-and-Beer-Lounge': "",
+                    'The Bonnie': "",
+                    '60 Beans': "",
+                    'Cafe 23': "",
+                    'Flattopps': '',
+                    'Sparrow Tavern': ''
                 },
-                'Shop':{
-                    'Ditmars Flowers and Gifts':"",
-                    'The Brass Owl':"",
-                    'The Little Soap Shop':"",
-                    'Zhicay Shoe Repair':"",
-                    'The Stonework':"",
-                    'Inside Astoria':""
+                'Co-work': {
+                    'Wework': ""
                 },
-                'Hobby':{
-                    'Luludi':""
+                'Shop': {
+                    'Ditmars Flowers and Gifts': "",
+                    'The Brass Owl': "",
+                    'The Little Soap Shop': "",
+                    'Zhicay Shoe Repair': "",
+                    'The Stonework': "",
+                    'Inside Astoria': ""
                 },
-                'Co-work':{
-                    'Tyler Clayton':"Stay a while, he's worth every second. Shoot a video or picture, don't forget to tip"
+                'Hobby': {
+                    'Luludi': ""
                 },
-                'Wellness':{
-                    'Oak Point Health and Vitality Centre':""
-                },
-                'Bar':{
-                    'Tyler Clayton':"Stay a while, he's worth every second. Shoot a video or picture, don't forget to tip"
-                }},
+                'Wellness': {
+                    'Oak Point Health and Vitality Centre': ""
+                }
+            },
             'adventure':{
                 'Tone Setters':{
                     'Lillian':'',
@@ -68,7 +65,7 @@ const Categories = React.createClass({
         }[this.props.params.type];
 
         const categoryNav = Object.keys(dest).map((category, i) =>
-            <li className="tab col s3"><a className="active" href={'#'+category}>
+            <li key={i} className="tab col s3"><a className="active" href={'#'+category}>
                 {category}
             </a></li>);
 

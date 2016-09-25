@@ -33,7 +33,7 @@ const Destination = React.createClass({
                     letter:'O',
                     challenge:"Welcome to the Bonnie. You have important task at hand. Find Lillian and capture her tattoo. Take a picture in the back yard, the Bonnie will reward you.",
                     address: '29-12 23rd Ave',
-                    mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                    mapsLink: 'http://maps.apple.com/?address=29-12,23rd+Ave,Astoria'
                 },
                 '60-Beans':{
                     title:'60-Beans',
@@ -41,62 +41,62 @@ const Destination = React.createClass({
                     letter:'W',
                     challenge:"Welcome to 60 Beans. Try a free coffee. Find out the origin of the name. Instagram the business whatever way the mood strikes you. Get code from Joel.",
                     address: '36-02 Ditmars Blvd',
-                    mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                    mapsLink: 'http://maps.apple.com/?address=36-02,Ditmars+Blvd,Astoria'
                 },
                 'Mosaic-Craft-Cocktail-and-Beer-Lounge':{
                     title:'Mosaic Craft Beer and Cocktail Lounge',
                     description:"t's difficult to capture just how much this wonderful coffee shop means to us but we'll do our best. 60 beans has been our office, our daily support, our center of socializing, and our ambassador of Kwan. We are humbled and honored to have them as a part of our hunt, both as a sponsor and a destination. You must experience this fantastic tone setter.",
                     letter:'I',
                     challenge:"Now that you've seen the inside it's time to see the outside. There is a private party going on, so for now just scope it out. Creatively Instagram whatever Mosaic's mood may be.",
-                    address: '35-37 36th St, Astoria',
-                    mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                    address: '25-19 24th Ave',
+                    mapsLink: 'http://maps.apple.com/?address=25-19,24th+Ave,Astoria'
                 },
                 'Cafe-23':{
                     title:'Cafe 23',
                     description:"there  is a new vetted cafe in town and they are great. Stop by for some tea and welcome them to the neighborhood. Great people, quality service, and we're digging their tone.",
                     letter:'T',
                     challenge:"Come get some free ice tea. Instagram this lovely cafe and let them know whatever the mood sent you their way.",
-                    address: '35-37 36th St, Astoria',
+                    address: '22-80 Steinway St',
                     mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
                 },'Ditmars-Flowers-and-Gifts':{
                     title:'Ditmars Flowers and Gifts',
                     description:"f you need flowers in Astoria look no further than here. We've been getting our flowers here for six years and as far as vetting goes this is our go to place. Family run and beautiful inside and out. Ditmars Flowers & Gifts. We thank them for their generous contribution to the hunt.",
                     letter:'I',
                     challenge:"Welcome to Ditmars Florist. Creatively pose amongst the flowers with your team.",
-                address: '35-37 36th St, Astoria',
-                mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                address: '2911 Ditmars Blvd,',
+                mapsLink: 'http://maps.apple.com/?address=2911,Ditmars+Blvd,Astoria'
                 },
                 'Flattopps':{
                     title:'Flattopps',
                     description:"ome one come all to this badass, funky hip hop tone. Flattopps keeps it going and puts you in the dope and fun times zone",
                     letter:'C',
                     challenge:"Give a dollar to the bartender, bartender picks a song, shoot a music video while sipping on a free slushy.",
-                    address: '35-37 36th St, Astoria',
-                    mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                    address: '33-06 Ditmars Blvd',
+                    mapsLink: 'http://maps.apple.com/?address=33-06,Ditmars+Blvd,Astoria'
                 },
                 'The-Little-Soap-Shop':{
                     title:'The Little Soap Shop',
                     description:"t just keeps getting better. Introducing our new, kind and wonderfully crafty vetted tone setter, The Little Soap Shop. We are happy to announce their gracious involvement in our scavenger hunt. If you haven't heard of them yet, you certainly will soon.",
                     letter:'I',
                     challenge:"If they are open, stop by, hi-five the owner and have them direct you to a meaningful photo. FYI they are moving locations soon.",
-                    address: '35-37 36th St, Astoria',
-                    mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                    address: '2207 36th St',
+                    mapsLink: 'http://maps.apple.com/?address=2207,36th+St,Astoria'
                 },
                 'The-Brass-Owl':{
                     title:'The Brass Owl',
                     description:"e are elated to welcome yet another incredible sponsor to the vetted Whatever The Mood team. We love Astoria and we love The Brass Owl boutique. The staff is kind, the products are beautiful, and the overall vibe is one of ease and beauty.",
                     letter:'W',
                     challenge:"Welcome to The Brass Owl. Craft a beautiful photo with items that inspire. Make it pretty ... but ask Nicole first.",
-                    address: '35-37 36th St, Astoria',
-                    mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                    address: '36-19 Ditmars Blvd',
+                    mapsLink: 'http://maps.apple.com/?address=36-19,Ditmars+Blvd,Astoria'
                 },
                 'Zhicay-Shoe-Repair':{
                     title:'Zhicay Shoe Repair',
                     description:"eet Gonzalo! He is a wonderful and kind man who is better with a shine and a shoe than any we've met. His tone is sincere and he's ready to repair. Zhicay shoe repair.",
                     letter:'M',
                     challenge:"Speak to Ed at lunch.",
-                    address: '35-37 36th St, Astoria',
-                    mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                    address: '2304 28th St',
+                    mapsLink: 'http://maps.apple.com/?address=2304,28th+St,Astoria'
                 },
                 'Kelsey':{
                     title:'Kelsey',
@@ -111,71 +111,68 @@ const Destination = React.createClass({
                     description:"e now have the sincere privilege of partnering with Luludi. They offer terrarium classes and workshops and quality care. To capture the quality of a person and their business in one photo can be quite challenging but we did our best with this image donated from a local artist and friend.",
                     letter:'W',
                     challenge:"enjoy this mood and refer to your printed paper sheet for further instructions.",
-                    address: '35-37 36th St, Astoria',
-                    mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                    address: '2307 24th Ave',
+                    mapsLink: 'http://maps.apple.com/?address=2307,24th+Ave,Astoria'
             },
             'Oak-Point-Health-and-Vitality-Centre':{
             title:'Oak Point Health and Vitality Centre',
                 description:"e are beyond humbled to be partnered with the one and only Oak Point Health & Vitality Centre. I had my first acupuncture session with them today and I can say without any doubt it was a special and healing experience. You won't have to choose to trust when you're there, you'll be guided to it with grace and care.",
                 letter:'W',
                 challenge:"We all need rest and genuine healers need it too. Stop by to see the exterior and get discounts too.",
-                address: '35-37 36th St, Astoria',
-                mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                address: '23-92 23rd St',
+                mapsLink: 'http://maps.apple.com/?address=23-92,23rd+St,Astoria'
         },
         'Bagel-House':{
             title:'Bagel House',
                 description:"hen you go to The Bagel House, you're not just going to get a bagel. The owner, Steve, is a rare man of discipline and pure love. I am overwhelmed by their kindness, community support, and terrific bagels. When you ask for a picture here, Steve comes out from behind the counter and brings the staff and community with him. What a guy and what a place. They couldn't be more of a Whatever The Mood tone setter. We'll be coming here for life.",
                 letter:'W',
                 challenge:"Breakfast served, from the community, to the community, as honest, disciplined and genuine as a bagel shop can get.",
-            address: '35-37 36th St, Astoria',
-            mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+            address: '3811 Ditmars Blvd',
+            mapsLink: 'http://maps.apple.com/?address=3811,Ditmars+Blvd,Astoria'
         },
         'Delicious-Deli':{
             title:'Delicious Deli',
                 description:"hen you come to Delicious Delicatessen, you're not just coming for a great sandwich or fresh fruit, you're coming for love and long lasting friendship. These guys are well vetted and are truly for the community and spreading love. They have generously donated fruit to the hunt and we're thrilled to support them. Pay them a visit and feel the love. 24th Ave and 28th street. Get there, it's delicious",
                 letter:'W',
                 challenge:"Stop by delicious deli, thank them for the free fruit, hi-five the owner and enjoy discounted juice.",
-            address: '35-37 36th St, Astoria',
-            mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+            address: '24th Ave and 28th street'
         },
         'Sparrow-Tavern':{
             title:'Sparrow Tavern',
                 description:"his may seem like a strange image to represent a bar, but The Sparrow Tavern isn't your ordinary bar. The interior is eclectic and cool, the owner and staff are real, kind, and artistic human beings. The food is great and they're open until 4am (if that's what you're into). Come by this Astoria original, there are legends everywhere you look.",
                 letter:'T',
                 challenge:"Welcome to Sparrow. Have a free adult Irish Coffee beverage. Find a light fixture that speaks to you and Instagram it, so we can feel it too.",
-            address: '35-37 36th St, Astoria',
-            mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+            address: '24-01 29th St',
+            mapsLink: 'http://maps.apple.com/?address=24-01,29th+St,Astoria'
         },
         'Versa-Fit':{
             title:'Versa Fit',
                 description:"e're thrilled to welcome a vetted personable and skilled fitness extraordinaire to our growing team of vetted tone setters. John is a man for the community and from the community and he is definitely an absolute pleasure to be around",
                 letter:'W',
                 challenge:"After we break bread let's warm up with John. What could be better, let's carry on.",
-            address: '35-37 36th St, Astoria',
-            mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
         },
         'Supernova':{
             title:'Supernova',
                 description:"Wondering where I got these tattoos? We are belated to announce Supernova as our one and only go-to vetted tattoo artist. Intuition led me to them and I have built a business from these tattoos. I'm humbled and grateful to know them and to have them as a lifetime partner with Whatever The Mood. You must go here and mention us when you do, that's all I need to say.",
                 letter:'W',
                 challenge:"What is the Supernova buzzer.",
-            address: '35-37 36th St, Astoria',
-            mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+            address: '38-01 23rd Ave',
+            mapsLink: 'http://maps.apple.com/?address=38-01 23rd+ave,Astoria'
         },
         'The-Stonework':{
             title:'The-Stonework',
                 description:" brilliant well crafted tone is coming to Ditmars soon and we're so excited to share a tease of what's to come. Take a second to notice the care and craft taken just to cover the windows while they're finishing construction and design. I've already said it and I certainly mean it; we'll be their number one customer.",
                 letter:'A',
                 challenge:"Need legendary menswear. See Ed over lunch.",
-            address: '35-37 36th St, Astoria',
-            mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+            address: '37-6 Ditmars Blvd',
+            mapsLink: 'http://maps.apple.com/?address=37-6,Ditmars+Blvd,Astoria'
         },'Inside-Astoria':{
             title:'Inside Astoria',
                 description:"hatever family friendly and locally sourced gift you may need, Inside Astoria is a well vetted tone setter and most certainly is a place to get it. We are so happy to include them in our scavenger hunt and for their generous support! There will be prizes!",
                 letter:'W',
                 challenge:"As a group, capture the spirit of Astoria using items in the store.",
-                address: '35-37 36th St, Astoria',
-                mapsLink: 'http://maps.apple.com/?address=35-37,36th+St,Astoria'
+                address: '28-07 Ditmars Blvd',
+                mapsLink: 'http://maps.apple.com/?address=28-07,Ditmars+Blvd,Astoria'
         },'Lillian':{
             title:'Lillian',
                 description:"eet our vetted and beautiful friend, Lillian. She is a rare and wonderful spirit who has always provided positivity and love to our cause and to life in general. We are so pleased to guide you to her pleasantness the day of our first event. We love this lady!",
