@@ -9,9 +9,9 @@ const Destination = React.createClass({
         // let img1 = require(`../../img/dest/${this.props.image}`);
         let img2 = this.props.image2 && require(`../../img/dest/${this.props.image2}`);
 
-        let destId = this.props.title.replace(" ", "-");
+        let destId = this.props.title.replace(/ /g, "-");
 
-        let img1 = require(`../../img/dest/${this.props.title.replace(" ", "-")}-small.jpg`);
+        let img1 = require(`../../img/dest/${this.props.title.replace(/ /g, "-")}-small.jpg`);
 
         return (
 

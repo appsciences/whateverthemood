@@ -36,7 +36,7 @@ const Categories = React.createClass({
                     'Sparrow Tavern':''
                 },
                 'Shop':{
-                    'Ditmas Flowers and Gifts':"",
+                    'Ditmars Flowers and Gifts':"",
                     'The Brass Owl':"",
                     'The Little Soap Shop':"",
                     'Zhicay Shoe Repair':"",

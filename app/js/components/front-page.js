@@ -9,7 +9,7 @@ const FrontPage = React.createClass({
 
         return (
 
-            <div className="page animated fadeinright" onClick={e => window.location.href = 'https://www.facebook.com/events/576581589196477/'}>
+            <div className="page animated fadeinright">
 
                 {/*<!-- Event Fullscreen Header -->*/}
                 <div className="event-header bg-v-6">
@@ -39,7 +39,7 @@ const FrontPage = React.createClass({
                                     {/*to={`/categories/explore`}*/}
                                     {/*className="btn-large"*/}
                                     {/*style={{background:"rgba(255, 255, 255, 0.3)"}}*/}
-                                {/*>Explore</Link>*/}
+                                {/*>Not sure</Link>*/}
                             {/*</p>*/}
                         </div>
                     </div>

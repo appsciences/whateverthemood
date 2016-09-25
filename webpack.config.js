@@ -15,7 +15,7 @@ module.exports = {
             {
                 test: /.js?$/,
                 loader: 'babel-loader',
-                exclude: /node_modules/,
+                exclude: /node_modules|jetpack/,
             },
             {
                 test: /\.css$/,
@@ -23,6 +23,10 @@ module.exports = {
             },
             {
                 test: /\.(ico|jpg|png|ttf|eot|svg|gif|woff(2)?)(\?v=.+)?$/,
+                loader: 'file'
+            },
+            {
+                test: /jetpack/,
                 loader: 'file'
             },
             {
